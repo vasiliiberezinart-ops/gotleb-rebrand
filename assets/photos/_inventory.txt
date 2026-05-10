@@ -1,0 +1,18 @@
+# GOTLEB photo inventory
+# Source: https://gotleb.ru (Tilda CDN)
+# Date: 2026-05-10
+
+3133-323_image.png                   497k  (hero/brand image)
+3266-343_09_01_gotleb_may2337.jpg    359k  (product photo — may2337 variant A)
+3332-356_09_01_gotleb_may2183.jpg    529k  (product photo — may2183)
+3438-663_09_01_gotleb_may2393.jpg    620k  (product photo — may2393)
+3664-373_09_01_gotleb_may2337.jpg    359k  (product photo — may2337 variant B)
+3865-383_image.png                   497k  (image block 2)
+6161-303_image.png                   497k  (image block 3)
+6163-393_image.png                   497k  (image block 4)
+6461-373_09_01_gotleb_may2160.jpg    341k  (product photo — may2160)
+
+Total: 9 files
+Source URLs: https://static.tildacdn.com/tild<hash>/filename
+Note: product grid is JS-rendered; these are inlined hero/section images from raw HTML.
+Store feed endpoint (store.gotleb.ru/feed/json) returned no additional images.

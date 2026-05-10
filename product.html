@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Oxford 04 — GOTLEB</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="header__inner">
+    <button class="header__burger" aria-label="Меню" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <a class="header__logo" href="index.html">GOTLEB</a>
+    <nav class="header__nav" aria-label="Главное меню">
+      <a href="about.html">История</a>
+      <a href="catalog.html" class="is-active">Коллекция</a>
+      <a href="about.html#contact">Контакты</a>
+    </nav>
+    <div class="header__icons">
+      <a href="#" aria-label="Поиск">⌕</a>
+      <a href="#" aria-label="Избранное">♡</a>
+      <a href="#" aria-label="Корзина">◯</a>
+    </div>
+  </div>
+</header>
+
+<div class="container" style="padding-top: var(--space-3);">
+  <a href="catalog.html" class="t-meta" style="text-decoration: none; opacity: 0.7;">← коллекция</a>
+</div>
+
+<section class="pdp">
+  <div>
+    <div class="pdp__gallery-main">
+      <img src="assets/photos/3266-343_09_01_gotleb_may2337.jpg" alt="Oxford 04">
+    </div>
+    <div class="pdp__thumbs">
+      <button class="pdp__thumb is-active"><img src="assets/photos/3266-343_09_01_gotleb_may2337.jpg" alt=""></button>
+      <button class="pdp__thumb"><img src="assets/photos/3332-356_09_01_gotleb_may2183.jpg" alt=""></button>
+      <button class="pdp__thumb"><img src="assets/photos/3438-663_09_01_gotleb_may2393.jpg" alt=""></button>
+      <button class="pdp__thumb"><img src="assets/photos/3664-373_09_01_gotleb_may2337.jpg" alt=""></button>
+    </div>
+  </div>
+
+  <div class="pdp__info">
+    <h1 class="pdp__title">Oxford 04</h1>
+    <div class="pdp__rule"></div>
+    <p class="pdp__material">Телячья кожа · ручной шов</p>
+    <p class="pdp__price">28 000 ₽</p>
+
+    <pre class="specs-block">┌─ specs ───────────┐
+│ sku    OX-04      │
+│ leather  calf     │
+│ sole     leather  │
+│ stitch   goodyear │
+│ last     [ name ] │
+└───────────────────┘</pre>
+
+    <div class="sizes">
+      <p class="sizes__label">размер</p>
+      <div class="sizes__pills">
+        <button class="size-pill">41</button>
+        <button class="size-pill">42</button>
+        <button class="size-pill is-active">43</button>
+        <button class="size-pill">44</button>
+        <button class="size-pill">45</button>
+        <button class="size-pill">46</button>
+      </div>
+    </div>
+
+    <div class="pdp__actions">
+      <a href="#" class="hairline-link">в корзину</a>
+      <a href="#" class="hairline-link">в избранное</a>
+    </div>
+
+    <div class="pdp__delivery">
+      <p class="pdp__delivery-title">Доставка по России</p>
+      <p class="pdp__delivery-text">3–7 дней · СДЭК / Почта России</p>
+    </div>
+  </div>
+</section>
+
+<div class="archive-rule" style="margin-top: var(--space-7);">
+  <span class="archive-rule__inner">┌─ from the atelier ─────────────────────────────┐
+└────────────────────────────────────────────────┘</span>
+</div>
+
+<section class="manifesto">
+  <p class="manifesto__quote">[ Заглушка от Андрея — 2-3 строки про модель Oxford: про колодку, материал, кому и для чего ]</p>
+</section>
+
+<div class="archive-rule">
+  <span class="archive-rule__inner">┌─ similar pairs ─┐
+└─────────────────┘</span>
+</div>
+
+<section class="products" style="grid-template-columns: repeat(4, 1fr);">
+  <a class="product-card" href="product.html">
+    <div class="product-card__photo">
+      <img src="assets/photos/3332-356_09_01_gotleb_may2183.jpg" alt="">
+    </div>
+    <div class="product-card__info">
+      <p class="product-card__name">Derby 02</p>
+      <p class="product-card__meta">Calf · 26 000 ₽</p>
+    </div>
+  </a>
+  <a class="product-card" href="product.html">
+    <div class="product-card__photo">
+      <img src="assets/photos/3438-663_09_01_gotleb_may2393.jpg" alt="">
+    </div>
+    <div class="product-card__info">
+      <p class="product-card__name">Loafer 01</p>
+      <p class="product-card__meta">Suede · 24 000 ₽</p>
+    </div>
+  </a>
+  <a class="product-card" href="product.html">
+    <div class="product-card__photo">
+      <img src="assets/photos/3664-373_09_01_gotleb_may2337.jpg" alt="">
+    </div>
+    <div class="product-card__info">
+      <p class="product-card__name">Monk 03</p>
+      <p class="product-card__meta">Cordovan · 32 000 ₽</p>
+    </div>
+  </a>
+  <a class="product-card" href="product.html">
+    <div class="product-card__photo">
+      <img src="assets/photos/6461-373_09_01_gotleb_may2160.jpg" alt="">
+    </div>
+    <div class="product-card__info">
+      <p class="product-card__name">Boot 05</p>
+      <p class="product-card__meta">Calf · 36 000 ₽</p>
+    </div>
+  </a>
+</section>
+
+<footer class="footer">
+  <div class="footer__cols">
+    <div class="footer__col"><h4>GOTLEB</h4><ul><li>обувь ручной работы</li><li>с [ года ]</li><li><a href="about.html">история</a></li></ul></div>
+    <div class="footer__col"><h4>Клиенту</h4><ul><li><a href="#">доставка</a></li><li><a href="#">возврат</a></li><li><a href="#">оплата</a></li><li><a href="#">уход</a></li></ul></div>
+    <div class="footer__col"><h4>Контакт</h4><ul><li><a href="mailto:a.zhakevich@gmail.com">a.zhakevich@gmail.com</a></li><li><a href="tel:+79263435468">+7 926 343 5468</a></li><li><a href="https://t.me/a_zhakevich">t.me/a_zhakevich</a></li></ul></div>
+  </div>
+  <div class="footer__bottom">© 2026 GOTLEB · [ Москва ]</div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

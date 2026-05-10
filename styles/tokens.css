@@ -1,0 +1,51 @@
+/* GOTLEB design tokens — палитра, типография, сетка */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400&display=swap');
+
+:root {
+  /* Палитра — Парижский архив C2 */
+  --paper:      #ece7df;
+  --paper-deep: #e2dcd0;
+  --ink:        #2b2620;
+  --ink-soft:   #5a5247;
+  --ink-faint:  #948b7d;
+  --rule:       #c9c1b3;
+  --accent:     #a06a3c;
+
+  /* Типография */
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans:  'Inter', -apple-system, system-ui, sans-serif;
+  --font-mono:  'JetBrains Mono', ui-monospace, monospace;
+
+  /* Размеры (8px baseline) */
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-5: 48px;
+  --space-6: 64px;
+  --space-7: 80px;
+  --space-8: 120px;
+  --space-9: 200px;
+
+  /* Сетка */
+  --max-content: 1400px;
+  --gutter:      32px;
+  --gutter-mob:  16px;
+
+  /* Hairline */
+  --hairline: 1px solid var(--rule);
+
+  /* Transitions */
+  --t-link: 200ms ease-out;
+  --t-photo: 400ms ease-out;
+}
+
+@media (max-width: 640px) {
+  :root {
+    --gutter: var(--gutter-mob);
+    --space-8: 64px;
+    --space-7: 48px;
+    --space-6: 40px;
+  }
+}

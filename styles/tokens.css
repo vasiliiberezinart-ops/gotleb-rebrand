@@ -2,6 +2,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400&display=swap');
 
+@font-face {
+  font-family: 'Gaprio Display';
+  src: url('../assets/fonts/GaprioDisplay-Demo-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gaprio Display';
+  src: url('../assets/fonts/GaprioDisplay-Demo-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
 :root {
   /* Палитра — Парижский архив C2 */
   --paper:      #ece7df;
@@ -13,9 +29,10 @@
   --accent:     #a06a3c;
 
   /* Типография */
-  --font-serif: 'Cormorant Garamond', Georgia, serif;
-  --font-sans:  'Inter', -apple-system, system-ui, sans-serif;
-  --font-mono:  'JetBrains Mono', ui-monospace, monospace;
+  --font-serif:   'Cormorant Garamond', Georgia, serif;
+  --font-sans:    'Inter', -apple-system, system-ui, sans-serif;
+  --font-mono:    'JetBrains Mono', ui-monospace, monospace;
+  --font-display: 'Gaprio Display', 'Cormorant Garamond', Georgia, serif;
 
   /* Размеры (8px baseline) */
   --space-1: 8px;

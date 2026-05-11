@@ -27,6 +27,7 @@
   --ink-faint:  #948b7d;
   --rule:       #c9c1b3;
   --accent:     #a06a3c;
+  --highlight:  #f5c518;   /* терминал-жёлтый для подсветок (hero-фраза) */
 
   /* Типография */
   --font-serif:   'Cormorant Garamond', Georgia, serif;
